@@ -1,1 +1,64 @@
-Hello
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Semantic-UI</title>
+	<script type="text/javascript" src="assets/library/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/library/main.js"></script>
+	
+	<script type="text/javascript" src="dist/semantic.min.js"></script>
+	<link rel="stylesheet" href="dist/semantic.min.css"></link>
+	<link rel="stylesheet/less" type="text/css" href="/src/definitions/modules/accordion.less" />
+</head>
+<body>
+	<div class="ui red tabular menu">
+		<h3 class="header item">Brand</h3>
+		<a class="active item" data-tab="first">tab 1</a>
+		<a class="item" data-tab="second">tab 2</a>
+		<a class="item"data-tab="third">tab 3</a>
+		<a class="item"data-tab="fourth">tab 4</a>
+		<span class="floated right item"><a href="#">User</a></span>
+	</div>
+
+	<div class="ui active tab segment" data-tab="first">
+	<div class="ui accordion">
+		<div class="active title">
+			<i class="dropdown icon"></i>
+			What is lipsum?
+		</div>
+		<div class="active content">
+			<div class="ui message red">
+			<div class="ui horizontal divider"><i class="desktop icon"></i></div>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et velit at lacus luctus ornare vel maximus lacus.</p>
+				<div class="ui divider"></div>
+					<p>Fusce hendrerit erat at vulputate placerat. Donec scelerisque facilisis nunc. 
+					Aliquam rhoncus, velit aliquam placerat congue, diam ipsum suscipit enim, eu varius leo lectus non ipsum. Proin consequat sapien sed nisi malesuada dictum. 
+					Nulla id pulvinar felis, eu scelerisque augue. Proin ullamcorper, mi vel finibus mollis, purus odio dignissim lacus, quis posuere velit lacus at tellus. 
+					Curabitur vehicula lectus pretium, fermentum purus vel, convallis tortor. Sed placerat gravida molestie. Integer sagittis tincidunt est, a aliquet nisl tincidunt at. 
+					Suspendisse mi neque, cursus ac turpis ornare, condimentum posuere arcu. Mauris lobortis lobortis venenatis. Sed in ipsum velit. Fusce venenatis orci et nulla feugiat blandit. 
+					Ut bibendum pharetra lacus. Nullam nec sapien id tortor convallis dapibus sit amet vitae justo.</p>
+			</div>
+		</div>
+		<div class="title">
+			<i class="dropdown icon"></i>
+			Why is lipsum?
+		</div>
+		<div class="content">
+			<div class="ui message blue">
+			<div class="ui horizontal divider"><i class="desktop icon"></i></div>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et velit at lacus luctus ornare vel maximus lacus.</p>
+				<div class="ui divider"></div>
+					<p>Fusce hendrerit erat at vulputate placerat. Donec scelerisque facilisis nunc. 
+					Aliquam rhoncus, velit aliquam placerat congue, diam ipsum suscipit enim, eu varius leo lectus non ipsum. Proin consequat sapien sed nisi malesuada dictum. 
+					Nulla id pulvinar felis, eu scelerisque augue. Proin ullamcorper, mi vel finibus mollis, purus odio dignissim lacus, quis posuere velit lacus at tellus. 
+					Curabitur vehicula lectus pretium, fermentum purus vel, convallis tortor. Sed placerat gravida molestie. Integer sagittis tincidunt est, a aliquet nisl tincidunt at. 
+					Suspendisse mi neque, cursus ac turpis ornare, condimentum posuere arcu. Mauris lobortis lobortis venenatis. Sed in ipsum velit. Fusce venenatis orci et nulla feugiat blandit. 
+					Ut bibendum pharetra lacus. Nullam nec sapien id tortor convallis dapibus sit amet vitae justo.</p>
+			</div>
+		</div>
+	</div>
+	</div>
+	<div class="ui tab segment" data-tab="second">Second</div>
+	<div class="ui tab segment" data-tab="third">Third</div>
+	<div class="ui tab segment" data-tab="fourth">Fourth</div>
+</body>
+</html>
