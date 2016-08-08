@@ -1,3 +1,8 @@
+$(document).ready(function(){
+	$('.ui.accordion').accordion();
+	$('.tabular.menu .item').tab({history:false});
+});
+
 $(function () {
 	$('a.item').click(function(){
 		$('.item').removeClass('active');
@@ -5,7 +10,3 @@ $(function () {
 	})
 });
 
-$(document).ready(function(){
-	$('.ui.accordion').accordion();
-	$('.tabular.menu .item').tab({history:false});
-});
